@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    font-size: large;
+    color: gainsboro;
+    text-align: justify;
+    padding: 5% 10% 1% 10%;
+}
+
+.logo h1{
+    font-size:60px;
+}
+
+nav div{
+    text-align: center;
+    float: start;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    justify-content: center;
+}
+
+.perfil img{
+    border: 3px solid #434341 ;
+    border-radius: 10%;
+    margin-left: 45%;
+    
+    /*justify-content: center;
+    text-align: center;
+    display: inline-block; 
+    margin: auto;
+    vertical-align: auto;
+    
+    nada disso conseguiu centralizar a foto*/
+}
+
+.perfil a{
+    text-decoration: underline;
+    color: aquamarine;
+}
+
+.contato2 img{
+    width: 30px;
+    vertical-align:middle;
+}
+
+.pix img{
+    width: 35px;
+    vertical-align:middle;
+    border-radius: 15px;
+}
+
+h6{
+    text-align: center;
+    vertical-align: bottom;
+    margin: 0px;
+    padding: 50px 0px 5px 0px;
+    font-family: monospace;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

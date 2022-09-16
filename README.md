@@ -12,7 +12,7 @@
 
 <br>
 
-### 🎯 [Clique para acessar]("https://geice-sousa.github.io/escurecendoFatos/")
+### 🎯 [Clique para acessar](https://geice-sousa.github.io/escurecendoFatos/)
 
 <br>
 

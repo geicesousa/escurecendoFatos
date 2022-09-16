@@ -30,7 +30,7 @@ nav img{
 .perfil img{
     border: 3px solid #434341 ;
     border-radius: 10%;
-    margin-left: 45%;
+    /* margin-left: 45%; centralizou +/-, o center foi a melhor opção*/
     
     /*justify-content: center;
     text-align: center;

@@ -2,43 +2,55 @@ body {
     background-image: linear-gradient(to right, #434343 0%, black 100%);
     font-size: large;
     color: gainsboro;
-    text-align: justify;
-    padding: 5% 10% 1% 10%;
+    margin: auto 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.logo h1{
+.logo-name{
     font-size:60px;
 }
 
-nav div{
-    text-align: center;
-    float: start;
-}
- 
-nav{
+.icons-link{
     display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
-nav img{
-    width: 60px;
-    height: 60px;
+.instagram, .youtube, .twitter, .instagram-personal, .terra-nos, .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10rem;
+    text-align: center;
+}
+ 
+.instagram-img, .youtube-img, .twitter-img, .instagram-personal-img, .terra-img, .contact-img{
+    margin: 0;
+    width: 3rem;
     border-radius: 30%;
-    justify-content: center;
+}
+.instagram-img:hover, .youtube-img:hover, .twitter-img:hover, .instagram-personal-img:hover, .terra-img:hover, .contact-img:hover{
+    width: 4rem;
+}
+/* AQUI */
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.perfil div p{
+    margin-left: 1rem;
 }
 
-.perfil img{
-    border: 3px solid #434341 ;
-    border-radius: 10%;
-    /* margin-left: 45%; centralizou +/-, o center foi a melhor opção*/
+.perfil-img{
+    border: 3px solid #434341; 
+    border-radius: 10%; 
+    box-shadow: 2px 5px #434343;
     
-    /*justify-content: center;
-    text-align: center;
-    display: inline-block; 
-    margin: auto;
-    vertical-align: auto;
-    
-    nada disso conseguiu centralizar a foto*/
 }
 
 .perfil a{
@@ -46,11 +58,15 @@ nav img{
     color: aquamarine;
 }
 
-.contato2 img{
-    width: 30px;
-    vertical-align:middle;
+.perfil-contact p, .perfil-pix p{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
 }
-
+.perfil p img{
+    width: 2rem;
+    text-align: center;
+}
 .pix img{
     width: 35px;
     vertical-align:middle;
@@ -59,13 +75,35 @@ nav img{
 
 h6{
     text-align: center;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
     margin: 0px;
-    padding: 50px 0px 5px 0px;
     font-family: monospace;
+    line-height: .9rem;
 }
 
 a{
     color: white;
     text-decoration: none;
+}
+a:hover{
+    font-size: medium;
+}
+
+@media screen and (max-width: 320px) {
+    body{
+        background:#434343;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    body{
+        /* background:#434343; */
+        display: block;
+        margin: 0 1rem;
+    }
+    .logo, .logo-name{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        /* text-transform: uppercase; */
+    }
 }

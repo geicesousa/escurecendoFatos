@@ -1,6 +1,6 @@
 # 🧔🏿‍♂️ EscurecendoFatos
 
-![miniatura da página](./geice-sousa.github.io_escurecendoFatos_.png)
+![miniatura da página](geice-sousa.github.io_escurecendoFatos1v_.png)
 
 <br>
 
